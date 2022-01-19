@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: python-app
-          path: 
+          path: |
             . 
             !venv/
 
@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Covid-19'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6DBBCDF50BBB4AAFA2612282F1BBF7AB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1E8C50CFFD694B85A127E87314DF8B38 }}
